@@ -1,0 +1,32 @@
+{
+  "project": "daily-project-engine",
+  "total_days": 1,
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-04-18",
+      "tasks": {
+        "dsa": {
+          "title": "Dijkstra shortest path with path reconstruction",
+          "difficulty": "medium",
+          "file": "days/day1/data_structures.py"
+        },
+        "networking": {
+          "title": "Reliable UDP stop-and-wait with sequence, ACK, checksum, retries",
+          "difficulty": "medium",
+          "file": "days/day1/networking.py"
+        },
+        "game": {
+          "title": "2D player movement and tile collision resolution",
+          "difficulty": "medium",
+          "file": "days/day1/game_features.py"
+        },
+        "mini_tool": {
+          "title": "CLI file organizer with dry-run and undo manifest",
+          "difficulty": "medium",
+          "file": "days/day1/mini_tools.py"
+        }
+      }
+    }
+  ]
+}
