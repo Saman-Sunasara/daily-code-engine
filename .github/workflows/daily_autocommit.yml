@@ -1,0 +1,60 @@
+name: Daily Auto Commit
+
+on:
+  schedule:
+    # 03:30 UTC ~= 09:00 IST
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-auto-commit
+  cancel-in-progress: false
+
+jobs:
+  daily-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate Next Day
+        run: |
+          python .github/scripts/daily_automation.py --date "$(date -u +%F)"
+
+      - name: Validate New Day Files
+        run: |
+          DAY=$(python - <<'PY'
+          import json
+          with open("task_history.json","r",encoding="utf-8") as f:
+              h=json.load(f)
+          print(h["total_days"])
+          PY
+          )
+          python -m py_compile \
+            "days/day${DAY}/data_structures.py" \
+            "days/day${DAY}/networking.py" \
+            "days/day${DAY}/game_features.py" \
+            "days/day${DAY}/mini_tools.py"
+
+      - name: Commit and Push
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          MSG=$(cat .daily_commit_message.txt)
+          git add .
+          git commit -m "$MSG"
+          git push
