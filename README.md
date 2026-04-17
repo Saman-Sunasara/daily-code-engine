@@ -30,3 +30,9 @@ python days/day2/networking.py self-test --drop-rate 0.2
 python days/day2/game_features.py
 python days/day2/mini_tools.py next-plan --history task_history.json
 ```
+
+## Day 3
+- DSA: Segment tree with lazy propagation.
+- Networking: Selective repeat reliability simulation with out-of-order buffering.
+- Game Feature: Enemy finite-state machine with patrol/chase/attack transitions.
+- Mini Tool: Incremental backup CLI using file-hash change detection.

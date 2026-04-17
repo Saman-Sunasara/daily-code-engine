@@ -1,27 +1,30 @@
 # Dashboard
 
 ## Summary
-- Total days completed: 2
+- Total days completed: 3
 - Categories implemented:
-  - DSA: 2
-  - Networking: 2
-  - Game Features: 2
-  - Mini Tools: 2
+  - DSA: 3
+  - Networking: 3
+  - Game Features: 3
+  - Mini Tools: 3
 
 ## Difficulty Progression
 - Day 1
-  - DSA: Medium (Dijkstra with path reconstruction)
-  - Networking: Medium (reliable UDP with ACK/retry/checksum)
-  - Game: Medium (movement + collision resolution)
-  - Tooling: Medium (CLI organizer with manifest + undo)
+  - DSA: Medium (Dijkstra shortest path with path reconstruction)
+  - Networking: Medium (Reliable UDP stop-and-wait with sequence, ACK, checksum, retries)
+  - Game: Medium (2D player movement and tile collision resolution)
+  - Tooling: Medium (CLI file organizer with dry-run and undo manifest)
 - Day 2
-  - DSA: Medium-High (A* with weighted terrain and obstacle routing)
-  - Networking: Medium-High (Go-Back-N sliding window with cumulative ACK and FIN handshake)
-  - Game: Medium-High (platform physics + projectile combat interactions)
-  - Tooling: Medium-High (automation CLI for planning, validation, and auto-commit)
+  - DSA: Medium-High (A* pathfinding on weighted grid with obstacle and terrain costs)
+  - Networking: Medium-High (Reliable UDP Go-Back-N sliding window with cumulative ACK and FIN handshake)
+  - Game: Medium-High (Platform physics with jump, gravity, and projectile-enemy interaction)
+  - Tooling: Medium-High (Daily workflow automation CLI for planning, validation, and auto-commit)
+- Day 3
+  - DSA: High (Segment tree with lazy propagation)
+  - Networking: High (Selective repeat reliability simulation with out-of-order buffering)
+  - Game: High (Enemy finite-state machine with patrol/chase/attack transitions)
+  - Tooling: High (Incremental backup CLI using file-hash change detection)
 
 ## Next-Day Guidance
-- DSA: move to advanced data structures (segment trees, Fenwick trees, interval optimization).
-- Networking: move from Go-Back-N to selective repeat with out-of-order buffering.
-- Game: add event/state system with AI behaviors and richer combat feedback loops.
-- Tooling: add policy-based task generation and 365-day schedule automation hooks.
+- Keep tasks non-repeating and increase complexity with practical constraints.
+- Prefer real-world reliability, simulation fidelity, and reusable tooling.

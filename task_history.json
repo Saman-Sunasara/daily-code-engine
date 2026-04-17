@@ -1,6 +1,6 @@
 {
   "project": "daily-project-engine",
-  "total_days": 2,
+  "total_days": 3,
   "days": [
     {
       "day": 1,
@@ -51,6 +51,32 @@
           "title": "Daily workflow automation CLI for planning, validation, and auto-commit",
           "difficulty": "medium-high",
           "file": "days/day2/mini_tools.py"
+        }
+      }
+    },
+    {
+      "day": 3,
+      "date": "2026-04-17",
+      "tasks": {
+        "dsa": {
+          "title": "Segment tree with lazy propagation",
+          "difficulty": "high",
+          "file": "days/day3/data_structures.py"
+        },
+        "networking": {
+          "title": "Selective repeat reliability simulation with out-of-order buffering",
+          "difficulty": "high",
+          "file": "days/day3/networking.py"
+        },
+        "game": {
+          "title": "Enemy finite-state machine with patrol/chase/attack transitions",
+          "difficulty": "high",
+          "file": "days/day3/game_features.py"
+        },
+        "mini_tool": {
+          "title": "Incremental backup CLI using file-hash change detection",
+          "difficulty": "high",
+          "file": "days/day3/mini_tools.py"
         }
       }
     }
