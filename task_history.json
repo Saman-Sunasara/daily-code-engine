@@ -1,6 +1,6 @@
 {
   "project": "daily-project-engine",
-  "total_days": 1,
+  "total_days": 2,
   "days": [
     {
       "day": 1,
@@ -25,6 +25,32 @@
           "title": "CLI file organizer with dry-run and undo manifest",
           "difficulty": "medium",
           "file": "days/day1/mini_tools.py"
+        }
+      }
+    },
+    {
+      "day": 2,
+      "date": "2026-04-18",
+      "tasks": {
+        "dsa": {
+          "title": "A* pathfinding on weighted grid with obstacle and terrain costs",
+          "difficulty": "medium-high",
+          "file": "days/day2/data_structures.py"
+        },
+        "networking": {
+          "title": "Reliable UDP Go-Back-N sliding window with cumulative ACK and FIN handshake",
+          "difficulty": "medium-high",
+          "file": "days/day2/networking.py"
+        },
+        "game": {
+          "title": "Platform physics with jump, gravity, and projectile-enemy interaction",
+          "difficulty": "medium-high",
+          "file": "days/day2/game_features.py"
+        },
+        "mini_tool": {
+          "title": "Daily workflow automation CLI for planning, validation, and auto-commit",
+          "difficulty": "medium-high",
+          "file": "days/day2/mini_tools.py"
         }
       }
     }
