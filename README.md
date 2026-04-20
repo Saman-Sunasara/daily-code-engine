@@ -48,3 +48,9 @@ python days/day2/mini_tools.py next-plan --history task_history.json
 - Networking: AIMD congestion-control simulation with packet-loss response.
 - Game Feature: Spatial-hash broad-phase collision detection.
 - Mini Tool: Release-notes generator CLI from git history.
+
+## Day 6
+- DSA: Trie-based autocomplete with frequency ranking (variant 6).
+- Networking: AIMD congestion-control simulation with packet-loss response (variant 6).
+- Game Feature: Spatial-hash broad-phase collision detection (variant 6).
+- Mini Tool: Release-notes generator CLI from git history (variant 6).

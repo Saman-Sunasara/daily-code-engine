@@ -1,12 +1,12 @@
 # Dashboard
 
 ## Summary
-- Total days completed: 5
+- Total days completed: 6
 - Categories implemented:
-  - DSA: 5
-  - Networking: 5
-  - Game Features: 5
-  - Mini Tools: 5
+  - DSA: 6
+  - Networking: 6
+  - Game Features: 6
+  - Mini Tools: 6
 
 ## Difficulty Progression
 - Day 1
@@ -34,6 +34,11 @@
   - Networking: High (AIMD congestion-control simulation with packet-loss response)
   - Game: High (Spatial-hash broad-phase collision detection)
   - Tooling: High (Release-notes generator CLI from git history)
+- Day 6
+  - DSA: High (Trie-based autocomplete with frequency ranking (variant 6))
+  - Networking: High (AIMD congestion-control simulation with packet-loss response (variant 6))
+  - Game: High (Spatial-hash broad-phase collision detection (variant 6))
+  - Tooling: High (Release-notes generator CLI from git history (variant 6))
 
 ## Next-Day Guidance
 - Keep tasks non-repeating and increase complexity with practical constraints.
