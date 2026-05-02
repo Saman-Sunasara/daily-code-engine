@@ -1,12 +1,12 @@
 # Dashboard
 
 ## Summary
-- Total days completed: 17
+- Total days completed: 18
 - Categories implemented:
-  - DSA: 17
-  - Networking: 17
-  - Game Features: 17
-  - Mini Tools: 17
+  - DSA: 18
+  - Networking: 18
+  - Game Features: 18
+  - Mini Tools: 18
 
 ## Difficulty Progression
 - Day 1
@@ -94,6 +94,11 @@
   - Networking: High (UDP heartbeat monitor with liveness detection and retry logic (variant 17))
   - Game: High (Event-driven combat loop with cooldown system (variant 17))
   - Tooling: High (Structured log analyzer CLI for level/error aggregation (variant 17))
+- Day 18
+  - DSA: High (Trie-based autocomplete with frequency ranking (variant 18))
+  - Networking: High (AIMD congestion-control simulation with packet-loss response (variant 18))
+  - Game: High (Spatial-hash broad-phase collision detection (variant 18))
+  - Tooling: High (Release-notes generator CLI from git history (variant 18))
 
 ## Next-Day Guidance
 - Keep tasks non-repeating and increase complexity with practical constraints.
