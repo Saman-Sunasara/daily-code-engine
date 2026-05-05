@@ -138,3 +138,9 @@ python days/day2/mini_tools.py next-plan --history task_history.json
 - Networking: UDP heartbeat monitor with liveness detection and retry logic (variant 20).
 - Game Feature: Event-driven combat loop with cooldown system (variant 20).
 - Mini Tool: Structured log analyzer CLI for level/error aggregation (variant 20).
+
+## Day 21
+- DSA: Trie-based autocomplete with frequency ranking (variant 21).
+- Networking: AIMD congestion-control simulation with packet-loss response (variant 21).
+- Game Feature: Spatial-hash broad-phase collision detection (variant 21).
+- Mini Tool: Release-notes generator CLI from git history (variant 21).
