@@ -216,3 +216,9 @@ python days/day2/mini_tools.py next-plan --history task_history.json
 - Networking: AIMD congestion-control simulation with packet-loss response (variant 33).
 - Game Feature: Spatial-hash broad-phase collision detection (variant 33).
 - Mini Tool: Release-notes generator CLI from git history (variant 33).
+
+## Day 34
+- DSA: Segment tree with lazy propagation (variant 34).
+- Networking: Selective repeat reliability simulation with out-of-order buffering (variant 34).
+- Game Feature: Enemy finite-state machine with patrol/chase/attack transitions (variant 34).
+- Mini Tool: Incremental backup CLI using file-hash change detection (variant 34).
