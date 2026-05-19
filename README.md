@@ -222,3 +222,9 @@ python days/day2/mini_tools.py next-plan --history task_history.json
 - Networking: Selective repeat reliability simulation with out-of-order buffering (variant 34).
 - Game Feature: Enemy finite-state machine with patrol/chase/attack transitions (variant 34).
 - Mini Tool: Incremental backup CLI using file-hash change detection (variant 34).
+
+## Day 35
+- DSA: Union-Find + Kruskal minimum spanning tree (variant 35).
+- Networking: UDP heartbeat monitor with liveness detection and retry logic (variant 35).
+- Game Feature: Event-driven combat loop with cooldown system (variant 35).
+- Mini Tool: Structured log analyzer CLI for level/error aggregation (variant 35).
