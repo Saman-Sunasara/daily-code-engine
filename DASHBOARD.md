@@ -1,12 +1,12 @@
 # Dashboard
 
 ## Summary
-- Total days completed: 40
+- Total days completed: 41
 - Categories implemented:
-  - DSA: 40
-  - Networking: 40
-  - Game Features: 40
-  - Mini Tools: 40
+  - DSA: 41
+  - Networking: 41
+  - Game Features: 41
+  - Mini Tools: 41
 
 ## Difficulty Progression
 - Day 1
@@ -209,6 +209,11 @@
   - Networking: High (Selective repeat reliability simulation with out-of-order buffering (variant 40))
   - Game: High (Enemy finite-state machine with patrol/chase/attack transitions (variant 40))
   - Tooling: High (Incremental backup CLI using file-hash change detection (variant 40))
+- Day 41
+  - DSA: High (Union-Find + Kruskal minimum spanning tree (variant 41))
+  - Networking: High (UDP heartbeat monitor with liveness detection and retry logic (variant 41))
+  - Game: High (Event-driven combat loop with cooldown system (variant 41))
+  - Tooling: High (Structured log analyzer CLI for level/error aggregation (variant 41))
 
 ## Next-Day Guidance
 - Keep tasks non-repeating and increase complexity with practical constraints.
