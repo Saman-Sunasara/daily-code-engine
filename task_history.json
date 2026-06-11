@@ -1,6 +1,6 @@
 {
   "project": "daily-project-engine",
-  "total_days": 57,
+  "total_days": 58,
   "days": [
     {
       "day": 1,
@@ -1481,6 +1481,32 @@
           "title": "Release-notes generator CLI from git history (variant 57)",
           "difficulty": "high",
           "file": "days/day57/mini_tools.py"
+        }
+      }
+    },
+    {
+      "day": 58,
+      "date": "2026-06-11",
+      "tasks": {
+        "dsa": {
+          "title": "Segment tree with lazy propagation (variant 58)",
+          "difficulty": "high",
+          "file": "days/day58/data_structures.py"
+        },
+        "networking": {
+          "title": "Selective repeat reliability simulation with out-of-order buffering (variant 58)",
+          "difficulty": "high",
+          "file": "days/day58/networking.py"
+        },
+        "game": {
+          "title": "Enemy finite-state machine with patrol/chase/attack transitions (variant 58)",
+          "difficulty": "high",
+          "file": "days/day58/game_features.py"
+        },
+        "mini_tool": {
+          "title": "Incremental backup CLI using file-hash change detection (variant 58)",
+          "difficulty": "high",
+          "file": "days/day58/mini_tools.py"
         }
       }
     }
