@@ -1,6 +1,6 @@
 {
   "project": "daily-project-engine",
-  "total_days": 80,
+  "total_days": 81,
   "days": [
     {
       "day": 1,
@@ -2079,6 +2079,32 @@
           "title": "Structured log analyzer CLI for level/error aggregation (variant 80)",
           "difficulty": "high",
           "file": "days/day80/mini_tools.py"
+        }
+      }
+    },
+    {
+      "day": 81,
+      "date": "2026-07-04",
+      "tasks": {
+        "dsa": {
+          "title": "Trie-based autocomplete with frequency ranking (variant 81)",
+          "difficulty": "high",
+          "file": "days/day81/data_structures.py"
+        },
+        "networking": {
+          "title": "AIMD congestion-control simulation with packet-loss response (variant 81)",
+          "difficulty": "high",
+          "file": "days/day81/networking.py"
+        },
+        "game": {
+          "title": "Spatial-hash broad-phase collision detection (variant 81)",
+          "difficulty": "high",
+          "file": "days/day81/game_features.py"
+        },
+        "mini_tool": {
+          "title": "Release-notes generator CLI from git history (variant 81)",
+          "difficulty": "high",
+          "file": "days/day81/mini_tools.py"
         }
       }
     }
