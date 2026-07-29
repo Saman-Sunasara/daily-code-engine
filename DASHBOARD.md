@@ -1,12 +1,12 @@
 # Dashboard
 
 ## Summary
-- Total days completed: 105
+- Total days completed: 106
 - Categories implemented:
-  - DSA: 105
-  - Networking: 105
-  - Game Features: 105
-  - Mini Tools: 105
+  - DSA: 106
+  - Networking: 106
+  - Game Features: 106
+  - Mini Tools: 106
 
 ## Difficulty Progression
 - Day 1
@@ -534,6 +534,11 @@
   - Networking: High (AIMD congestion-control simulation with packet-loss response (variant 105))
   - Game: High (Spatial-hash broad-phase collision detection (variant 105))
   - Tooling: High (Release-notes generator CLI from git history (variant 105))
+- Day 106
+  - DSA: High (Segment tree with lazy propagation (variant 106))
+  - Networking: High (Selective repeat reliability simulation with out-of-order buffering (variant 106))
+  - Game: High (Enemy finite-state machine with patrol/chase/attack transitions (variant 106))
+  - Tooling: High (Incremental backup CLI using file-hash change detection (variant 106))
 
 ## Next-Day Guidance
 - Keep tasks non-repeating and increase complexity with practical constraints.
