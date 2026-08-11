@@ -1,6 +1,6 @@
 {
   "project": "daily-project-engine",
-  "total_days": 118,
+  "total_days": 119,
   "days": [
     {
       "day": 1,
@@ -3067,6 +3067,32 @@
           "title": "Incremental backup CLI using file-hash change detection (variant 118)",
           "difficulty": "high",
           "file": "days/day118/mini_tools.py"
+        }
+      }
+    },
+    {
+      "day": 119,
+      "date": "2026-08-11",
+      "tasks": {
+        "dsa": {
+          "title": "Union-Find + Kruskal minimum spanning tree (variant 119)",
+          "difficulty": "high",
+          "file": "days/day119/data_structures.py"
+        },
+        "networking": {
+          "title": "UDP heartbeat monitor with liveness detection and retry logic (variant 119)",
+          "difficulty": "high",
+          "file": "days/day119/networking.py"
+        },
+        "game": {
+          "title": "Event-driven combat loop with cooldown system (variant 119)",
+          "difficulty": "high",
+          "file": "days/day119/game_features.py"
+        },
+        "mini_tool": {
+          "title": "Structured log analyzer CLI for level/error aggregation (variant 119)",
+          "difficulty": "high",
+          "file": "days/day119/mini_tools.py"
         }
       }
     }
