@@ -1,12 +1,12 @@
 # Dashboard
 
 ## Summary
-- Total days completed: 180
+- Total days completed: 181
 - Categories implemented:
-  - DSA: 180
-  - Networking: 180
-  - Game Features: 180
-  - Mini Tools: 180
+  - DSA: 181
+  - Networking: 181
+  - Game Features: 181
+  - Mini Tools: 181
 
 ## Difficulty Progression
 - Day 1
@@ -909,6 +909,11 @@
   - Networking: High (AIMD congestion-control simulation with packet-loss response (variant 180))
   - Game: High (Spatial-hash broad-phase collision detection (variant 180))
   - Tooling: High (Release-notes generator CLI from git history (variant 180))
+- Day 181
+  - DSA: High (Segment tree with lazy propagation (variant 181))
+  - Networking: High (Selective repeat reliability simulation with out-of-order buffering (variant 181))
+  - Game: High (Enemy finite-state machine with patrol/chase/attack transitions (variant 181))
+  - Tooling: High (Incremental backup CLI using file-hash change detection (variant 181))
 
 ## Next-Day Guidance
 - Keep tasks non-repeating and increase complexity with practical constraints.
